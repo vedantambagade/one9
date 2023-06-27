@@ -1,0 +1,49 @@
+vbody {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #fffcfc;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: rgb(190, 58, 58);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #eb1d1d;
+}
+
+.main-content {
+  background-image: url('file:///C:/Users/DELL/Desktop/huhu.jpg')
+  background-size: cover;
+ 
+}
+img{
+    width: 100%;
+}
